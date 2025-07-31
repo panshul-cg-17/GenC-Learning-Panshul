@@ -1,0 +1,55 @@
+Introduction:
+
+    JavaScript: Brings up interactivity/functionality to the web pages.
+    JavaScript: 
+        1. providing simple interactivity
+        2. support of complex business applications, utilities, security, data applications.
+        3. Supports various platforms-mobile,desktop,web, server-side development.
+
+    Supported by various web browsers.
+    TypeScript : For enterprise applications- superset of js- Adding static typing.
+
+
+    TypeScript compiler turns ts into js which goes into browser.
+    Node js: Js engine allowing us to run js on servers/desktops.
+
+    JavaScript engine: code -> Machine Readable -> can be run anywhere on browser 
+    Ex: v8- google, spiderMonkey- firefox, JsCore- Safari. 
+
+    Node Js- V8 engine + more features and capabilities.
+
+Node Js:
+    * Open Source.
+    ** No Dom Access.
+    *** Full Sys Access
+
+    Features:
+        Asynchronous-non Blocking.
+        Built in modules, fs, http
+        Scalable 
+        File System Access.
+        
+    Use Case: // We are going to use spring though
+        Apis.
+        Real-time applications
+        Cli Tools
+        Web Servers.
+
+    Benefits:
+        1 language for all.
+        2 Supports various packages, new made everyday
+        3 Good Market Cover.
+
+Concepts to be aware of:
+
+Anon functions
+Async programming
+null and undefined
+controlling DOM
+
+
+TypeScript:
+    Defining the types. 
+
+Document project in mdfile, doc for github.
+

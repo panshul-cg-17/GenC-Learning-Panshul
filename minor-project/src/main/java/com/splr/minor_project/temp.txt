@@ -1,0 +1,8 @@
+{
+  "title": "Complete Spring Boot project",
+  "completed": false,
+  "dueDate": "2025-08-01"
+}
+
+
+// The Application supports get and post methods.

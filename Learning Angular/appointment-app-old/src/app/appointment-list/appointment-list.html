@@ -1,0 +1,28 @@
+<h1>Basic Appointment Application</h1>
+
+<div>
+    Enter your Name please  :
+    <input [(ngModel)]="name"  placeholder="Add some things here"><br>
+    Enter the desired date  :
+    <input [(ngModel)]="date"  type="date"placeholder="Add some more thing here">
+    <br>
+    <button (click) = "addAppointment()">add</button>
+</div>
+
+<div>
+    <hr>
+    <h1>Appointment List</h1>
+    <p>Click on the list item to delete it</p>
+    <ul>
+        <li *ngFor="let item of appointments; index as i" (click) = "deleteAppointment(i)">
+            
+                <ul>
+               
+                    <li>{{item.name}}</li>
+                    <li>{{item.date}}</li>
+               
+                </ul>
+            
+        </li>
+    </ul>
+</div>
